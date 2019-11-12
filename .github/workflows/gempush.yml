@@ -1,13 +1,8 @@
 name: Ruby Gem
 
 on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches:
-      - master
-
+  pull_request
+  push
 jobs:
   build:
     name: Build + Publish
